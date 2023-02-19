@@ -1,0 +1,39 @@
+.listTodo{
+    padding: 0 !important;
+}
+.completed{
+    position: relative;
+}
+.uncompleted{
+    position: relative;
+}
+.all{
+    position: relative;
+}
+.onecount{
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 1px 8px;
+}
+
+.btn{
+    border: none;
+}
+.textTodo{
+    margin-bottom: 0 !important;
+}
+.delete{
+    cursor: pointer;
+}
+.edit{
+    cursor: pointer;
+}
+.done{
+    cursor: pointer;
+}
+.onecount{
+    position: absolute;
+}
