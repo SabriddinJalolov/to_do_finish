@@ -56,13 +56,11 @@ function renderUncomplete() {
   });
   listUnTodoCompleted.appendChild(elFragment);
 }
-
 //999999999999999999999999999999999999999999999999999999999999999999999999//
 
 function renderCompleteds() {
   listTodoCompleted.innerHTML = "";
   let compTodos = complete.flat(Infinity);
-
   compTodos.forEach((val, index) => {
     const todoItem = template.cloneNode(true).children[0];
     todoItem.querySelector(".idisi").textContent = val.id;
